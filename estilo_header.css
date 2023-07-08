@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; /*para sacar el subrayado a la etiqueta <a>*/
+    list-style: none; /*desactivar ordenar una lista de elementos que se encuentra en <ul>*/
+    margin: 0px;
+    padding: 0px;
+    }
+    body
+    {
+    background-color: #add691;
+    }
+    .header{
+    background-color: #446e42;
+    display: flex; /*los elementos se adaptan en forma horizontal*/
+    justify-content: space-between; /*justificar los contenidos*/
+    align-items: center;
+    padding: .5rem 2rem; /*es una medida igual que los px*/
+    }
+    .nav-menu ul
+    {
+    display: flex;
+    align-items: center;
+    }
+    .nav-menu li
+    {
+    margin-right: 1.5rem;
+    }
+    .nav-menu a:hover
+    {
+    color: #38583a;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 5px;
+    }
